@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Blues Legends — a timeless blues experience from the 80s and 90s.">
+  <title>Blues Legends | 4 Souls, 1 Sound</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;600;700&family=Roboto+Condensed:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="noise"></div>
+
+  <header class="site-header" id="home">
+    <a class="logo" href="#home" aria-label="Blues Legends home">
+      <span>BLUES</span><small>LEGENDS</small>
+    </a>
+
+    <button class="menu-btn" aria-label="Open menu" aria-expanded="false">☰</button>
+
+    <nav class="nav" aria-label="Main navigation">
+      <a href="#home" data-i18n="nav.home">Home</a>
+      <a href="#about" data-i18n="nav.about">About</a>
+      <a href="#band" data-i18n="nav.band">The Band</a>
+      <a href="#event" data-i18n="nav.event">Event</a>
+      <a href="#tickets" data-i18n="nav.tickets">Tickets</a>
+      <a href="#gallery" data-i18n="nav.gallery">Gallery</a>
+      <a href="#contact" data-i18n="nav.contact">Contact</a>
+    </nav>
+
+    <div class="language">
+      <button class="lang-btn" aria-haspopup="true" aria-expanded="false">🌐 <span id="currentLang">EN</span>⌄</button>
+      <div class="lang-menu">
+        <button data-lang="en">🇺🇸 English</button>
+        <button data-lang="pt">🇧🇷 Português</button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="polka polka-top"></div>
+      <div class="hero-content reveal">
+        <p class="eyebrow" data-i18n="hero.eyebrow">LIVE • CLASSIC • TIMELESS</p>
+        <h1>BLUES<br><span>LEGENDS</span></h1>
+        <p class="hero-sub" data-i18n="hero.sub">A timeless musical journey.</p>
+        <div class="phrase-list">
+          <p>♪ <span data-i18n="phrases.p1">An unforgettable music experience.</span></p>
+          <p>★ <span data-i18n="phrases.p2">4 Souls, 1 Sound.</span></p>
+          <p>♫ <span data-i18n="phrases.p3">A legendary live performance.</span></p>
+          <p>◉ <span data-i18n="phrases.p4">One unforgettable night.</span></p>
+          <p>✦ <span data-i18n="phrases.p5">A timeless musical journey.</span></p>
+          <p>⚡ <span data-i18n="phrases.p6">Four talented musicians.</span></p>
+          <p>♬ <span data-i18n="phrases.p7">A powerful blues experience.</span></p>
+          <p>◆ <span data-i18n="phrases.p8">The ultimate live music event.</span></p>
+        </div>
+        <div class="hero-actions">
+          <a class="btn primary" href="#tickets" data-i18n="hero.cta">GET YOUR FREE TICKET</a>
+          <a class="btn ghost" href="#band" data-i18n="hero.more">MEET THE BAND</a>
+        </div>
+      </div>
+
+      <div class="hero-stage" aria-label="Stylized illustration of the four band members">
+        <div class="stage-glow"></div>
+        <div class="mic"></div>
+        <div class="member-figure bassist"><div class="head"></div><div class="body"></div><div class="instrument bass"></div></div>
+        <div class="member-figure guitarist"><div class="head"></div><div class="body"></div><div class="instrument guitar"></div></div>
+        <div class="member-figure drummer"><div class="head"></div><div class="body"></div><div class="instrument drum"></div></div>
+        <div class="member-figure pianist"><div class="head"></div><div class="body"></div><div class="instrument piano"></div></div>
+        <div class="spotlight s1"></div><div class="spotlight s2"></div><div class="spotlight s3"></div>
+      </div>
+      <div class="polka polka-bottom"></div>
+    </section>
+
+    <section class="show-strip" id="event">
+      <div><span class="label" data-i18n="event.dateLabel">DATE</span><strong>04 SEP 20266666</strong></div>
+      <div><span class="label" data-i18n="event.placeLabel">VENUE</span><strong>IFPB CAMPUS<br>CAMPINA GRANDE</strong></div>
+      <div><span class="label" data-i18n="event.entryLabel">ENTRY</span><strong data-i18n="event.free">FREE • LIMITED TICKETS</strong></div>
+      <a class="btn primary small" href="#tickets" data-i18n="event.reserve">RESERVE NOW</a>
+    </section>
+
+    <section class="section split" id="about">
+      <div class="section-copy reveal">
+        <p class="section-tag">01 — <span data-i18n="about.tag">THE STORY</span></p>
+        <h2 data-i18n="about.title">BORN FROM THE BLUES.<br>INSPIRED BY THE 80s & 90s.</h2>
+        <p data-i18n="about.text">Blues Legends brings the soul of blues together with the energy of the 80s and 90s. Classic sounds, unforgettable melodies and a stage filled with character — a musical journey made for every generation.</p>
+        <p class="quote" data-i18n="about.quote">“Four musicians. One passion. Endless emotions.”</p>
+      </div>
+      <div class="retro-card reveal">
+        <div class="cassette">BLUES<br><small>LEGENDS</small></div>
+        <div class="headphones">◖ ◗</div>
+        <div class="dots"></div>
+        <p data-i18n="about.card">Retro spirit. Modern energy.</p>
+      </div>
+    </section>
+
+    <section class="section band-section" id="band">
+      <div class="section-heading">
+        <div><p class="section-tag">02 — <span data-i18n="band.tag">THE BAND</span></p><h2 data-i18n="band.title">FOUR TALENTED MUSICIANS.</h2></div>
+        <p data-i18n="band.intro">Four souls, four instruments, one unmistakable sound.</p>
+      </div>
+
+      <div class="members">
+        <article class="member-card reveal"><div class="portrait p1">B</div><span>01</span><h3>VICTOR</h3><p data-i18n="roles.bass">Vocals & Bass</p></article>
+        <article class="member-card reveal"><div class="portrait p2">G</div><span>02</span><h3>LARA</h3><p data-i18n="roles.guitar">Guitar</p></article>
+        <article class="member-card reveal"><div class="portrait p3">D</div><span>03</span><h3>MAYA</h3><p data-i18n="roles.drums">Drums</p></article>
+        <article class="member-card reveal"><div class="portrait p4">P</div><span>04</span><h3>SOFIA</h3><p data-i18n="roles.piano">Piano</p></article>
+      </div>
+    </section>
+
+    <section class="section event-section" id="tickets">
+      <div class="ticket-info reveal">
+        <p class="section-tag">03 — <span data-i18n="ticket.tag">THE SHOW</span></p>
+        <h2 data-i18n="ticket.title">ONE UNFORGETTABLE NIGHT.</h2>
+        <ul class="details">
+          <li><b>04</b><span><small data-i18n="ticket.month">SEPTEMBER</small><br>2016</span></li>
+          <li><b>IFPB</b><span><small data-i18n="ticket.venue">VENUE</small><br>Campus Campina Grande</span></li>
+          <li><b>FREE</b><span><small data-i18n="ticket.entry">ENTRY</small><br data-i18n="ticket.limited">Limited tickets</span></li>
+        </ul>
+      </div>
+
+      <form class="ticket-form reveal" id="ticketForm">
+        <div class="form-head"><span>✦</span><div><p class="section-tag" data-i18n="ticket.formTag">TICKET OFFICE</p><h3 data-i18n="ticket.formTitle">GET YOUR FREE TICKET</h3></div></div>
+        <p class="muted" data-i18n="ticket.formText">Reserve your place and receive a digital ticket code.</p>
+
+        <label for="name" data-i18n="form.name">Full name</label>
+        <input id="name" name="name" type="text" autocomplete="name" required placeholder="Your full name">
+
+        <label for="email" data-i18n="form.email">Email</label>
+        <input id="email" name="email" type="email" autocomplete="email" required placeholder="you@example.com">
+
+        <label for="quantity" data-i18n="form.quantity">Quantity</label>
+        <select id="quantity" name="quantity">
+          <option value="1">1 ticket</option>
+          <option value="2">2 tickets</option>
+          <option value="3">3 tickets</option>
+          <option value="4">4 tickets</option>
+        </select>
+
+        <label class="check"><input type="checkbox" required> <span data-i18n="form.accept">I confirm my reservation information.</span></label>
+        <button class="btn primary full" type="submit" data-i18n="form.button">GET TICKET</button>
+        <p class="form-note" data-i18n="ticket.note">Tickets are free but limited. Reserve your place now.</p>
+        <div class="ticket-result" id="ticketResult" hidden></div>
+      </form>
+    </section>
+
+    <section class="section gallery-section" id="gallery">
+      <div class="section-heading center">
+        <div><p class="section-tag">04 — <span data-i18n="gallery.tag">THE ERA</span></p><h2 data-i18n="gallery.title">FEEL THE BLUES.</h2></div>
+        <p data-i18n="gallery.intro">Polka-dot scarves, classic hats, cassette tapes and the sound of another era.</p>
+      </div>
+      <div class="gallery-grid">
+        <div class="gallery-item large"><span>01</span><strong>LIVE<br>BLUES</strong></div>
+        <div class="gallery-item"><span>02</span><strong>80s<br>VIBES</strong></div>
+        <div class="gallery-item"><span>03</span><strong>90s<br>SOUL</strong></div>
+        <div class="gallery-item"><span>04</span><strong>OLD<br>HEADPHONES</strong></div>
+        <div class="gallery-item"><span>05</span><strong>CASSETTE<br>MEMORIES</strong></div>
+      </div>
+    </section>
+
+    <section class="section contact-section" id="contact">
+      <div>
+        <p class="section-tag">05 — <span data-i18n="contact.tag">CONTACT</span></p>
+        <h2 data-i18n="contact.title">KEEP THE MUSIC PLAYING.</h2>
+      </div>
+      <div class="contact-box">
+        <p><b>BLUES LEGENDS</b></p>
+        <p>Campina Grande, PB — Brazil</p>
+        <p>contact@blueslegends.example</p>
+        <div class="socials"><a href="#" aria-label="Instagram">IG</a><a href="#" aria-label="YouTube">YT</a><a href="#" aria-label="Spotify">SP</a></div>
+      </div>
+    </section>
+  </main>
+
+  <footer><span>© 2016 Blues Legends</span><span data-i18n="footer">4 Souls, 1 Sound.</span></footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
